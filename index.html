@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner for Intranet</title>
+    
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="/select-2.css">   
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <main class="master-max">
+        <h2>Planner for Intranet</h2>
+        <!-- ***Búsqueda***** -->
+        <!-- <div>
+            <input class="busqueda" type="text" placeholder="Busqueda">
+            <button>Buscar</button>
+        </div> -->
+
+        <div class="mt-3">
+            <p><b>Elegir curso</b> </p>
+            <select name="curso" id="">
+                <option value="matematica">Matemática</option>
+                <option value="ingles">Inglés</option>
+                <option value="lenguaje">Lenguaje</option>
+            </select>
+        </div>
+
+        <div class="mt-3">
+            <p><b>Elegir grado</b> </p>
+            <select name="grade" id="">
+                <option value="early">G1</option>
+                <option value="lower">G2</option>
+                <option value="upper">G3</option>
+                <option value="upper">G4</option>
+                <option value="upper">G5</option>
+            </select>
+        </div>
+
+        <div class="mt-3">
+            <p><b>Agregar Profesor(es)</b> </p>
+            <select class="form-control" multiple="multiple" id="profesores">
+                <option selected value="profesor1">Pofesor 1</option>
+                <option value="profesor2">Pofesor 2</option>
+                <option value="profesor3">Pofesor 3</option>
+                <option value="profesor4">Pofesor 4</option>
+                <option value="profesor5">Pofesor 5</option>
+            </select>
+        </div>
+        <div class="mt-3">
+            <button class="btn btn-primary">Guardar</button>
+        </div>
+
+        <div class="mt-3">
+            <h4>Plantillas Prediseñadas</h4>
+            <div>
+                <p><b>Transdisciplinary theme</b></p>
+                <p><b>Who We Are</b></p>
+                <input type="text" class="input" placeholder="Who We Are/Where We">
+            </div>
+            <div class="mt-3">
+                <p><b>Where We Are in Place and Time</b></p>
+                <input type="text" class="input" placeholder="Where We Are in Place and Time">
+            </div>
+            <div class="mt-3">
+                <p><b>Sharing the Planet</b></p>
+                <input type="text" class="input" placeholder="Sharing the Planet">
+            </div>
+            <div class="mt-3">
+                <p><b>How the World Works</b></p>
+                <input type="text" class="input" placeholder="How the World Works">
+            </div>
+            <div class="mt-3">
+                <p><b>How We Organise Ourselves</b></p>
+                <input type="text" class="input" placeholder="How We Organise Ourselves">
+            </div>
+            <div>
+                <p><b>How We Express Ourselves</b></p>
+                <input type="text" class="input" placeholder="How We Express Ourselves">
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-success">Enviar</button>
+            </div>
+        </div>
+
+        <div style="background-color: wheat; padding: 10px;" class="mt-4">
+            <h4>Central Idea</h4>
+            <input class="input" type="text" placeholder="Escribe aquí tu comentario">
+            <br>
+            <input class="mt-1" type="text" placeholder="Ingresa el link">
+            <div class="mt-3">
+                <button class="btn btn-success">Enviar</button>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h4>Lines of inquiry </h4>
+            <select name="inquiry" id="">
+                <option value="critical">Critical</option>
+                <option value="creative">Creative</option>
+                <option value="transfer">Transfer</option>
+                <option value="reflection">Reflection</option>
+                <option value="literacy">Media literacy</option>
+                <option value="use">Ethical use</option>
+                <option value="information">Exchanging information</option>
+                <option value="literacy">Literacy</option>
+                <option value="ict">ICT</option>
+                <option value="intrapersonal">Intrapersonal</option>
+                <option value="interpersonal">Interpersonal</option>
+                <option value="organisation">Organisation</option>
+                <option value="mind">States of mind</option>
+            </select>
+        </div>
+
+        <div class="mt-4" style="background-color: rgb(231, 240, 237); padding: 10px;">
+            <h4>Narrative of Unit for Reports</h4>
+            <p><b>Cuadro de comentarios</b></p>
+            <input class="input" type="text" placeholder="Escribe tu comentario">
+            <br>
+            <button class="mt-1 btn btn-primary">Guardar</button>
+        </div>
+
+        <div>
+            <div class="mt-3">
+                <h4>Key concepts</h4>
+                <select class="form-control" id="menu" multiple="multiple">
+                    <option selected="selected" value="responsability">Responsibility</option>
+                    <option value="perspective">Perspective</option>
+                    <option value="form">Form</option>
+                    <option value="causation">Causation</option>
+                    <option value="causation">Function</option>
+                    <option value="causation">Change</option>
+                    <option value="causation">Connection</option>
+                    <option value="causation">Reflection</option>
+                </select>
+                <br>
+                <input class="mt-3 input" type="textarea" placeholder="Escribe tu comentario">
+            </div>
+
+            <div class="mt-3">
+                <h4>Related concepts</h4>
+                <select class="form-control" id="related" multiple="multiple">
+                    <option selected value="adaptation">adaptation</option>
+                    <option value="attitudes">attitudes</option>
+                    <option value="balance">balance</option>
+                    <option value="behaviour">behaviour</option>
+                    <option value="beliefs">beliefs</option>
+                    <option value="biodiversity">biodiversity</option>
+                </select>
+            </div>
+
+            <div class="mt-3">
+                <h4>Learner profile attributes</h4>
+                <select class="form-controm" multiple="multiple" name="leaner" id="">
+                    <option value="inquirer">Inquirer</option>
+                    <option value="knowledgeable">Knowledgeable</option>
+                    <option value="thinker">Thinker</option>
+                    <option value="communicator">Communicator</option>
+                    <option value="principled">Principled</option>
+                    <option value="openmd">Open-minded</option>
+                    <option value="caring">Caring</option>
+                    <option value="taker">Risk-taker</option>
+                    <option value="balanced">Balanced</option>
+                    <option value="reflective">Reflective</option>
+                </select>
+                <br>
+                <input class="mt-2 input" type="textarea" placeholder="Escribe tu comentario">
+            </div>
+            <button class="mt-1 btn btn-primary">Guardar</button>
+        </div>
+
+
+
+    </main>
+    <script src="/jquery.js"></script>
+    <script src="/select-2.js"></script>
+    <script>
+        // $(".js-example-tokenizer").select2({
+        //     tags: true,
+        //     tokenSeparators: [',', ' ']
+        // })
+
+        $('select').select2({
+            createTag: function (params) {
+                var term = $.trim(params.term);
+
+                if (term === '') {
+                    return null;
+                }
+
+                return {
+                    id: term,
+                    text: term,
+                    newTag: true // add additional parameters
+                }
+            }
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+
+main{
+    background-color: white;
+    padding: 20px 30px;
+}
+
+p{
+    margin: 0 !important;
+}
+
+
+.master-max{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+}
+
+.busqueda{
+    width: 380px;
+}
+
+.input{
+    width: 300px;
+    height: 70px;
+}
